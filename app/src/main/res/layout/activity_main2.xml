@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+<TextView
+    android:layout_width="@dimen/_200dp"
+    android:layout_height="@dimen/_110dp"
+    android:id="@+id/_mikirikuning"
+    android:background="#FFF307"/>
+    <TextView
+        android:layout_width="@dimen/_200dp"
+        android:layout_height="@dimen/_110dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/_miikuningkanan"
+        android:background="#FFF307"/>
+    <TextView
+        android:layout_width="@dimen/_280dp"
+        android:layout_height="@dimen/_110dp"
+        android:id="@+id/mihijaukiri"
+        android:layout_below="@+id/_mikirikuning"
+        android:background="#4EF610"/>
+    <TextView
+        android:layout_width="@dimen/_200dp"
+        android:layout_height="@dimen/_110dp"
+        android:layout_toRightOf="@+id/mihijaukiri"
+        android:id="@+id/_miikuningtengah"
+        android:layout_below="@id/mihijaukiri"
+        android:background="#FFF307"/>
+    <TextView
+        android:layout_width="@dimen/_200dp"
+        android:layout_height="@dimen/_110dp"
+        android:layout_below="@id/_miikuningtengah"
+        android:layout_marginTop="@dimen/_15dp"
+        android:id="@+id/_mikiorenkiri"
+        android:background="#FDB82E"/>
+    <TextView
+        android:layout_width="@dimen/_200dp"
+        android:layout_height="@dimen/_110dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/_miikuningkbwahtengah"
+        android:layout_below="@id/_miikuningtengah"
+        android:layout_marginTop="@dimen/_15dp"
+        android:background="#FFF307"/>
+    <TextView
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_110dp"
+        android:layout_below="@id/_mikiorenkiri"
+        android:id="@+id/_mikiningbwahren"
+       android:layout_marginStart="@dimen/_125dp"
+        android:background="#FFF307"/>
+    <TextView
+        android:layout_width="@dimen/_280dp"
+        android:layout_height="@dimen/_110dp"
+       android:layout_alignParentEnd="true"
+        android:id="@+id/_miihijaubwahkuning"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/_mikiorenkiri"
+        android:background="#4EF610"/>
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="@dimen/_110dp"
+        android:id="@+id/_mikirikuningte"
+        android:layout_below="@id/_miihijaubwahkuning"
+        android:background="#FFF307"/>
+    <TextView
+        android:layout_width="@dimen/_200dp"
+        android:layout_height="@dimen/_110dp"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/_miibiru"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/_miihijaubwahkuning"
+        android:background="#3856EF"/>
+
+    <TextView
+        android:layout_width="@dimen/_200dp"
+        android:layout_height="@dimen/_110dp"
+        android:background="#F80622"
+        android:layout_below="@id/_mikirikuningte"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/meragmi"/>
+    <TextView
+        android:layout_width="@dimen/_175dp"
+        android:layout_height="@dimen/_110dp"
+        android:id="@+id/_miiorenmer"
+        android:layout_marginTop="@dimen/_15dp"
+        android:layout_below="@+id/meragmi"
+        android:background="#FDB82E"/>
+    <TextView
+        android:layout_width="@dimen/_200dp"
+        android:layout_height="@dimen/_110dp"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/_miikuningnmer"
+        android:layout_marginTop="@dimen/_15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/meragmi"
+        android:background="#FFF307"/>
+    <TextView
+        android:layout_width="@dimen/_200dp"
+        android:layout_height="@dimen/_110dp"
+        android:background="#FDB82E"
+        android:layout_below="@id/_miikuningnmer"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/_miiorenumi"/>
+    <TextView
+        android:layout_width="@dimen/_175dp"
+        android:layout_height="@dimen/_110dp"
+        android:id="@+id/_miiorenummi1"
+        android:layout_below="@+id/_miiorenumi"
+        android:background="#FDB82E"/>
+    <TextView
+        android:layout_width="@dimen/_200dp"
+        android:layout_height="@dimen/_110dp"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/_miioren2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/_miiorenumi"
+        android:background="#FDB82E"/>
+
+
+
+
+
+
+
+</RelativeLayout>
